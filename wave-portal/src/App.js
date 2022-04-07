@@ -172,14 +172,16 @@ function App() {
             </button>
           )}
 
-          {allWaves.map((wave, index) => {
-            return (
-              <div key={index} style={{ backgroundColor: "OldLace", marginTop: "16px", padding: "8px" }}>
-                <div>Address: {wave.address}</div>
-                <div>Time: {wave.timestamp.toString()}</div>
-                <div>Message: {wave.message}</div>
-              </div>)
-          })}
+          {allWaves != null &&
+            allWaves.length > 0 &&
+            allWaves.map((wave, index) => {
+              return (
+                <div key={index} style={{ backgroundColor: "OldLace", marginTop: "16px", padding: "8px" }}>
+                  <div>Address: {wave.address}</div>
+                  <div>Time: {wave.timestamp.toString()}</div>
+                  <div>Message: {wave.message}</div>
+                </div>)
+            })}
         </div>
       </div>
     </div>
