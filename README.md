@@ -1,6 +1,6 @@
 # WaveApp
 
-Build following a tutorial in [buildspace.so](https://app.buildspace.so/projects/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b)
+Created this app by following a tutorial in [buildspace.so](https://app.buildspace.so/projects/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b)
 
 The smart contract is based in Solidity.\
 Hardhat is used for compiling and running of smart contract on development network.\
